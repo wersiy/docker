@@ -4,7 +4,7 @@ LABEL Project="NGTech"
 
 WORKDIR /usr
 
-COPY index.html /usr/local/apache2/htdocs
+COPY ./medlife-master/ /usr/local/apache2/htdocs
 
 EXPOSE 80
 
